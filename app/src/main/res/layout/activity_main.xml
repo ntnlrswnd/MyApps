@@ -36,26 +36,28 @@
 
         <Button
             android:id="@+id/login"
-            android:background="@drawable/bg_btn1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
             android:alpha="20"
+            android:background="@drawable/bg_btn1"
+            android:backgroundTint="#B600FD"
             android:fontFamily="@font/poppins_semibold"
+            android:onClick="openLogin"
             android:text="LOGIN"
-            android:textStyle="bold"
-            android:onClick="openLogin"/>
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/register"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/bg_btn2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="REGISTER"
-            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/bg_btn2"
+            android:fontFamily="@font/poppins_semibold"
             android:onClick="openRegister"
-            android:fontFamily="@font/poppins_semibold"/>
+            android:text="REGISTER"
+            android:textStyle="bold"/>
+
     </LinearLayout>
 
 </RelativeLayout>
