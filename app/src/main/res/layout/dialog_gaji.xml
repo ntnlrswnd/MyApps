@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@drawable/bg_white"
+    android:gravity="center">
+
+    <!-- Judul Pop-up -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detail Gaji"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/poppins_bold"
+        android:layout_gravity="center"
+        android:paddingBottom="16dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/light_gray"
+        android:layout_marginBottom="15dp"
+        />
+
+
+    <!-- Informasi Nama -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/dialog_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAlignment="viewEnd"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins"
+            android:layout_marginBottom="8dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/dialog_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textAlignment="viewEnd"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins"
+            android:layout_marginBottom="8dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Golongan"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/dialog_golongan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewEnd"
+            android:text=""
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins"
+            android:layout_marginBottom="8dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jabatan"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/dialog_jabatan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewEnd"
+            android:text=""
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins"
+            android:layout_marginBottom="8dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Gaji"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/dialog_total_gaji"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="viewEnd"
+            android:text=""
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins"
+            android:layout_marginBottom="16dp" />
+    </LinearLayout>
+
+<!--    <TextView-->
+<!--        android:id="@+id/dialog_nama"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Nama: "-->
+<!--        android:textSize="16sp"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:fontFamily="@font/poppins"-->
+<!--        android:layout_marginBottom="8dp" />-->
+
+    <!-- Informasi Status -->
+
+
+    <!-- Informasi Golongan -->
+
+
+    <!-- Informasi Jabatan -->
+
+
+    <!-- Total Gaji -->
+
+
+</LinearLayout>

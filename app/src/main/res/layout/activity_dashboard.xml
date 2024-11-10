@@ -113,5 +113,15 @@
                 android:layout_height="50dp"
                 app:srcCompat="@drawable/photoshop" />
         </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HITUNG GAJI"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="15dp"
+            android:backgroundTint="@color/primary"
+            android:onClick="openGaji"/>
     </LinearLayout>
 </RelativeLayout>

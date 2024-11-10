@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <string-array name="golongan_array">
+            <item>Golongan I</item>
+            <item>Golongan II</item>
+            <item>Golongan III</item>
+        </string-array>
+
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="jabatan_array">
+        <item>Staff</item>
+        <item>NOC</item>
+        <item>MANAGER</item>
+    </string-array>
+</resources>
