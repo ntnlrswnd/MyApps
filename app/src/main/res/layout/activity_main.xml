@@ -39,24 +39,22 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="30dp"
-            android:alpha="20"
-            android:background="@drawable/bg_btn1"
-            android:backgroundTint="#B600FD"
+            android:backgroundTint="@color/primary"
             android:fontFamily="@font/poppins_semibold"
             android:onClick="openLogin"
             android:text="LOGIN"
-            android:textStyle="bold" />
+            android:elevation="20dp"/>
 
         <Button
             android:id="@+id/register"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
-            android:background="@drawable/bg_btn2"
             android:fontFamily="@font/poppins_semibold"
             android:onClick="openRegister"
+            android:backgroundTint="@color/primary"
             android:text="REGISTER"
-            android:textStyle="bold"/>
+            android:elevation="20dp"/>
 
     </LinearLayout>
 

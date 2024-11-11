@@ -22,6 +22,7 @@
             android:text="Selamat Datang, Natanael Ruswandi."
             android:fontFamily="@font/poppins"
             android:textSize="16sp"
+            android:layout_marginTop="15dp"
             android:textAlignment="viewEnd"
             android:paddingBottom="10dp"/>
 
@@ -121,7 +122,19 @@
             android:textStyle="bold"
             android:fontFamily="@font/poppins_bold"
             android:textSize="15dp"
+            android:layout_marginTop="15dp"
             android:backgroundTint="@color/primary"
             android:onClick="openGaji"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:backgroundTint="@color/primary"
+            android:textSize="15dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="APLIKASI KELULUSAN"
+            android:layout_marginTop="15dp"
+            android:onClick="openModul"/>
     </LinearLayout>
 </RelativeLayout>

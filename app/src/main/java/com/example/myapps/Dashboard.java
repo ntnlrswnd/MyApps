@@ -22,4 +22,9 @@ public class Dashboard extends AppCompatActivity {
         Intent intent = new Intent(Dashboard.this, Gaji.class);
         startActivity(intent);
     }
+
+    public void openModul(View view){
+        Intent intent = new Intent(Dashboard.this, Modul4.class);
+        startActivity(intent);
+    }
 }
