@@ -13,6 +13,18 @@
         android:theme="@style/Theme.MyApps"
         tools:targetApi="31">
         <activity
+            android:name=".Modul8Prak"
+            android:exported="false" />
+        <activity
+            android:name=".Modul7Tugas"
+            android:exported="false" />
+        <activity
+            android:name=".Modul7b"
+            android:exported="false" />
+        <activity
+            android:name=".Modul7a"
+            android:exported="false" />
+        <activity
             android:name=".Modul4"
             android:exported="false" />
         <activity

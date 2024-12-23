@@ -6,9 +6,6 @@ import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 public class Dashboard extends AppCompatActivity {
 
@@ -25,6 +22,25 @@ public class Dashboard extends AppCompatActivity {
 
     public void openModul(View view){
         Intent intent = new Intent(Dashboard.this, Modul4.class);
+        startActivity(intent);
+    }
+
+    public void openModul7a(View view){
+        Intent intent = new Intent(Dashboard.this, Modul7a.class);
+        startActivity(intent);
+    }
+    public void openModul7b(View view){
+        Intent intent = new Intent(Dashboard.this, Modul7b.class);
+        startActivity(intent);
+    }
+
+    public void openModul7Tugas(View view){
+        Intent intent = new Intent(Dashboard.this, Modul7Tugas.class);
+        startActivity(intent);
+    }
+
+    public void openModul8(View view){
+        Intent intent = new Intent(Dashboard.this, Modul8Prak.class);
         startActivity(intent);
     }
 }
