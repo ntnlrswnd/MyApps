@@ -25,6 +25,10 @@ public class Dashboard extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void openModul5(View view){
+        Intent intent = new Intent(Dashboard.this, Modul5.class);
+        startActivity(intent);
+    }
     public void openModul7a(View view){
         Intent intent = new Intent(Dashboard.this, Modul7a.class);
         startActivity(intent);
