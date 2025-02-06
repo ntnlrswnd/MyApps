@@ -1,13 +1,17 @@
 package com.example.myapps;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Dashboard extends AppCompatActivity {
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,17 +33,12 @@ public class Dashboard extends AppCompatActivity {
         Intent intent = new Intent(Dashboard.this, Modul5.class);
         startActivity(intent);
     }
-    public void openModul7a(View view){
-        Intent intent = new Intent(Dashboard.this, Modul7a.class);
+    public void openModul7(View view){
+        Intent intent = new Intent(Dashboard.this, Modul7.class);
         startActivity(intent);
     }
-    public void openModul7b(View view){
-        Intent intent = new Intent(Dashboard.this, Modul7b.class);
-        startActivity(intent);
-    }
-
-    public void openModul7Tugas(View view){
-        Intent intent = new Intent(Dashboard.this, Modul7Tugas.class);
+    public void openModul6(View view){
+        Intent intent = new Intent(Dashboard.this, Modul6.class);
         startActivity(intent);
     }
 
@@ -47,4 +46,15 @@ public class Dashboard extends AppCompatActivity {
         Intent intent = new Intent(Dashboard.this, Modul8Prak.class);
         startActivity(intent);
     }
+
+    public void openModul9(View view){
+        Intent intent = new Intent(Dashboard.this, Modul9.class);
+        startActivity(intent);
+    }
+
+    public void openModul9RecycleView(View view){
+        Intent intent = new Intent(Dashboard.this, Modul9RecycleView.class);
+        startActivity(intent);
+    }
+
 }

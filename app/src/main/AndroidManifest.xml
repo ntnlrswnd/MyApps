@@ -13,6 +13,27 @@
         android:theme="@style/Theme.MyApps"
         tools:targetApi="31">
         <activity
+            android:name=".Modul9RecycleView"
+            android:exported="false" />
+        <activity
+            android:name=".Tab3"
+            android:exported="false" />
+        <activity
+            android:name=".Tab2"
+            android:exported="false" />
+        <activity
+            android:name=".Tab1"
+            android:exported="false" />
+        <activity
+            android:name=".Modul9"
+            android:exported="false" />
+        <activity
+            android:name=".Modul6"
+            android:exported="false" />
+        <activity
+            android:name=".Modul7"
+            android:exported="false" />
+        <activity
             android:name=".Modul5IntentWithData"
             android:exported="false" />
         <activity
@@ -21,13 +42,6 @@
         <activity
             android:name=".Modul5"
             android:exported="false" />
-        <activity
-            android:name=".IntentImplicitActivity"
-            android:exported="false" />
-        <activity
-            android:name=".Modul5Intent"
-            android:exported="false"
-            android:theme="@style/Theme.MyApps" />
         <activity
             android:name=".Modul8Prak"
             android:exported="false" />

@@ -10,6 +10,23 @@
     <string name="name_data">Pindah Activity | INTENT EXPLICIT WITH DATA</string>
     <string name="implicit">INTENT IMPLICIT</string>
     <string name="dial">Dial Number</string>
+    <string name="content_text">Terwujudnya Fakultas Ilmu Komputer Kuningan sebagai
+        fakultas ilmu komputer yang andai,
+        unggul dalam penyelenggaraan
+        Dharma perguruan tinggi diwilayah jawa barat pada tahun 2023;</string>
+    <string name="lahir_detail">Berdiri Sejak Tahun 2024;</string>
+    <string name="prodi_detail"> Teknik Informatika-S1\nSistem Informasi-S1\nManajemen Informatika-D3\nTeknik Sipil-S1\n</string>
+    <string name="detail_fasilitas">Kurikulum MBKM\nLaboratorium Terkini dan Lengkap\nBeasiswa</string>
+    <string name="visi">VISI FKOM</string>
+    <string name="spesification">Detail</string>
+    <string name="lahir">Lahir</string>
+    <string name="prodi">Program Studi</string>
+    <string name="fasilitas">Fasilitas</string>
+    <string name="seller">Publish oleh :</string>
+    <string name="my_name">Natanael Ruswandi </string>
+    <string name="buy">Detail</string>
+    <string name="dummy_value">FKOM UNIKU</string>
+    <string name="dummy_photos">6 Photos </string>
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
         volutpat, dolor id interdum ullamcorper, risus dolor egestas lectus, sit amet mattis purus
@@ -46,4 +63,12 @@
         libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
+    <string name="heroes_name">Nama Pahlawan</string>
+    <string name="detail">Detail</string>
+
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="with_cardview">With Card View</string>
+    <string name="favorite">Favorite</string>
+    <string name="share">Share</string>
 </resources>

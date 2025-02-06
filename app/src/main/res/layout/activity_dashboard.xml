@@ -12,7 +12,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="15dp">
+        android:padding="15dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -138,6 +138,11 @@
                     app:srcCompat="@drawable/photoshop" />
             </LinearLayout>
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"/>
+
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -167,6 +172,28 @@
                 android:backgroundTint="@color/primary"
                 android:textSize="15dp"
                 android:fontFamily="@font/poppins_bold"
+                android:text="MODUL 6 PRAKTIKUM"
+                android:layout_marginTop="15dp"
+                android:onClick="openModul6"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:backgroundTint="@color/primary"
+                android:textSize="15dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="MODUL 7 PRAKTIKUM"
+                android:layout_marginTop="15dp"
+                android:onClick="openModul7"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:backgroundTint="@color/primary"
+                android:textSize="15dp"
+                android:fontFamily="@font/poppins_bold"
                 android:text="APLIKASI KELULUSAN"
                 android:layout_marginTop="15dp"
                 android:onClick="openModul"/>
@@ -178,41 +205,31 @@
                 android:backgroundTint="@color/primary"
                 android:textSize="15dp"
                 android:fontFamily="@font/poppins_bold"
-                android:text="MODUL 7 PRAKTIKUM 1"
-                android:layout_marginTop="15dp"
-                android:onClick="openModul7a"/>
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAlignment="center"
-                android:backgroundTint="@color/primary"
-                android:textSize="15dp"
-                android:fontFamily="@font/poppins_bold"
-                android:text="MODUL 7 PRAKTIKUM 2"
-                android:layout_marginTop="15dp"
-                android:onClick="openModul7b"/>
-
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAlignment="center"
-                android:backgroundTint="@color/primary"
-                android:textSize="15dp"
-                android:fontFamily="@font/poppins_bold"
-                android:text="MODUL 7 TUGAS"
-                android:layout_marginTop="15dp"
-                android:onClick="openModul7Tugas"/>
-            <Button
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textAlignment="center"
-                android:backgroundTint="@color/primary"
-                android:textSize="15dp"
-                android:fontFamily="@font/poppins_bold"
                 android:text="MODUL 8 PRAKTIKUM"
                 android:layout_marginTop="15dp"
-                android:onClick="openModul8"
+                android:onClick="openModul8"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:backgroundTint="@color/primary"
+                android:textSize="15dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="MODUL 9 PRAKTIKUM"
+                android:layout_marginTop="15dp"
+                android:onClick="openModul9"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:backgroundTint="@color/primary"
+                android:textSize="15dp"
+                android:fontFamily="@font/poppins_bold"
+                android:text="MODUL 9 RECYCLE VIEW"
+                android:layout_marginTop="15dp"
+                android:onClick="openModul9RecycleView"
                 android:layout_marginBottom="50dp"/>
 
         </LinearLayout>
